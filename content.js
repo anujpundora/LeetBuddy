@@ -1,6 +1,6 @@
 function getproblemName(){
     let tittle=document.querySelector("title");
-      return(tittle) //title.textContent;
+      return(tittle.textContent) //title.textContent;
 }
 
 chrome.runtime.onMessage.addListener((message,_sender,sendResponse)=>{
