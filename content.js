@@ -1,6 +1,6 @@
 function getproblemName(){
-    // let title=document.querySelector("title");
-      return("leetcode 113") //title.textContent;
+    let tittle=document.querySelector("title");
+      return(tittle) //title.textContent;
 }
 
 chrome.runtime.onMessage.addListener((message,_sender,sendResponse)=>{
